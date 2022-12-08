@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+:root{
+    --black : #020403;
+    --gray : #ADADAD;
+    --white : #FFFFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Rubik';
+    background-color: var(--black);
+}
+
+.header-content{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.navbar{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 1.5rem 5rem;
+    position: relative;
+}
+
+.presentation{
+    padding: 1rem;
+}
+
+.presentation > h2{
+    font-weight:lighter;
+    color: var(--gray);
+    font-size: 18px;
+}
+
+.presentation > h1{
+    font-weight:bold;
+    font-size: 40px;
+}
+
+.subt{
+    font-size: 25px;
+    text-align: center;
+    color: var(--white);
+}
+
+.redes{
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem;
+}
+
+.about-me{
+    width: 100%;
+    color: var(--white);
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    max-width: 700px;
+}
+.text{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 25px;
+    color: var(--gray);
+    padding: 1rem 1.5rem;
+}
+
+.about-me h2{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.habilities{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.habil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    gap: 1rem;
+}
+
+.habil h5{
+    text-align: center;
+    font-size: 16px;
+}
+
+.imagen{
+    background-color: rgb(39, 39, 39);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience{
+    border: 1px solid white;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+.jobs{
+    border: 1px solid red;
+    width: 90%;
+    text-align: center;
+}
+
+.jobs-list{
+    border: 1px solid greenyellow;
+}
+
+.box-jobs{
+    border: 1px solid purple;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gray{
+    color: var(--gray);
+}
+
+.folder{
+    border: 1px solid orchid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.portafolio{
+    border: 1px solid darkorange;
+    margin: 2rem auto;
+    
+}
+
+.images-portafolio{
+    border: 1px solid darkkhaki;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.images-portafolio img{
+    margin: 1rem;
+}
+.sub-contact{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 1rem 1rem 1rem;
+}
+
+.contact{
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: var(--gray);
+    margin: 0 0 4rem 0;
+}
+.logo-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+
+.icon{
+    width: 40px;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:900px){
+    .habil-contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 700px;
+    }
+    .habil{
+        width: 300px;
+        height: 300px;
+    }
+    .imagen{
+        width: 100px;
+        height: 100px;
+    }
+    .images-portafolio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
