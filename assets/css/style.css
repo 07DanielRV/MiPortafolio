@@ -23,6 +23,19 @@ body{
     color: var(--white);
 }
 
+.header-image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+    object-fit: fill;
+}
+
 .navbar{
     padding: 1rem 1.5rem;
     display: flex;
@@ -47,12 +60,17 @@ body{
 .presentation > h2{
     font-weight:lighter;
     color: var(--gray);
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .presentation > h1{
     font-weight:bold;
     font-size: 40px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .subt{
